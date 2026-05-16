@@ -1,0 +1,31 @@
+<view class="recipe-container">
+  <!-- 搜索栏 -->
+  <view class="search-bar">
+    <input type="text" placeholder="搜索食谱" value="{{name}}" bindinput="bindinput" bindconfirm="bindconfirm" />
+    <image src="/images/icon/search.svg" bindtap="bindconfirm" data-val="{{name}}"></image>
+  </view>
+
+  <view class="main-content">
+    <!-- 左侧分类 -->
+    <scroll-view class="category-sidebar" scroll-y>
+      <view class="category-item {{currentCategory == 0 ? 'active' : ''}}" data-id="0" bindtap="onCategoryTap">全部</view>
+      <view class="category-item {{currentCategory == item.id ? 'active' : ''}}" wx:for="{{categories}}" wx:key="id" data-id="{{item.id}}" bindtap="onCategoryTap">{{item.name}}</view>
+    </scroll-view>
+
+    <!-- 右侧列表 -->
+    <view class="recipe-list">
+      <van-empty wx:if="{{recipes.length == 0 && !loading}}" description="暂无食谱" />
+      <view class="recipe-grid">
+        <view class="recipe-card" wx:for="{{recipes}}" wx:key="id" data-id="{{item.id}}" bindtap="goDetail">
+          <image class="recipe-img" mode="aspectFill" src="{{item.pic}}"></image>
+          <view class="recipe-info">
+            <view class="recipe-name van-multi-ellipsis--l2">{{item.name}}</view>
+            <view class="recipe-tags" wx:if="{{item.tasteTags && item.tasteTags.length > 0}}">
+              <text class="tag" wx:for="{{item.tasteTags}}" wx:for-item="tag" wx:key="*this">{{tag}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

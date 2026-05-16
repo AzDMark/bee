@@ -67,6 +67,12 @@
         </view>
         <view class="feature-name">{{ $t.home.lpk }}</view>
       </view>
+      <view class="feature-item" bind:tap="recipe">
+        <view class="feature-icon-box">
+          <image class="feature-icon" src="/images/recipe.png"></image>
+        </view>
+        <view class="feature-name">食谱</view>
+      </view>
       <view class="feature-item">
         <view class="feature-icon-box">
           <image class="feature-icon" src="/images/tg.png"></image>

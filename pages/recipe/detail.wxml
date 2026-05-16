@@ -1,0 +1,63 @@
+<view class="detail-container" wx:if="{{recipe}}">
+  <!-- 封面大图 -->
+  <image class="cover-img" mode="widthFix" src="{{recipe.pic}}" bindtap="previewImage" data-url="{{recipe.pic}}"></image>
+
+  <!-- 基本信息 -->
+  <view class="info-section">
+    <view class="recipe-title">{{recipe.name}}</view>
+    <view class="recipe-desc" wx:if="{{recipe.description}}">{{recipe.description}}</view>
+    <view class="tags-row" wx:if="{{recipe.tasteTags && recipe.tasteTags.length > 0}}">
+      <text class="taste-tag" wx:for="{{recipe.tasteTags}}" wx:key="*this">{{item}}</text>
+    </view>
+  </view>
+
+  <!-- 食材原料 -->
+  <view class="section" wx:if="{{recipe.ingredients && recipe.ingredients.length > 0}}">
+    <view class="section-title">食材原料</view>
+    <view class="ingredient-list">
+      <view class="ingredient-item" wx:for="{{recipe.ingredients}}" wx:key="name">
+        <text class="ingredient-name">{{item.name}}</text>
+        <text class="ingredient-amount">{{item.amount}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 营养成分 -->
+  <view class="section" wx:if="{{recipe.nutrition}}">
+    <view class="section-title">营养成分（每份）</view>
+    <view class="nutrition-grid">
+      <view class="nutrition-item" wx:if="{{recipe.nutrition.calories}}">
+        <text class="nutrition-value">{{recipe.nutrition.calories}}</text>
+        <text class="nutrition-label">热量</text>
+      </view>
+      <view class="nutrition-item" wx:if="{{recipe.nutrition.protein}}">
+        <text class="nutrition-value">{{recipe.nutrition.protein}}</text>
+        <text class="nutrition-label">蛋白质</text>
+      </view>
+      <view class="nutrition-item" wx:if="{{recipe.nutrition.fat}}">
+        <text class="nutrition-value">{{recipe.nutrition.fat}}</text>
+        <text class="nutrition-label">脂肪</text>
+      </view>
+      <view class="nutrition-item" wx:if="{{recipe.nutrition.carbs}}">
+        <text class="nutrition-value">{{recipe.nutrition.carbs}}</text>
+        <text class="nutrition-label">碳水</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 制作步骤 -->
+  <view class="section" wx:if="{{recipe.steps && recipe.steps.length > 0}}">
+    <view class="section-title">制作步骤</view>
+    <view class="step-list">
+      <view class="step-item" wx:for="{{recipe.steps}}" wx:key="order">
+        <view class="step-number">{{item.order}}</view>
+        <view class="step-content">
+          <text class="step-text">{{item.text}}</text>
+          <image wx:if="{{item.pic}}" class="step-img" mode="aspectFill" src="{{item.pic}}" bindtap="previewImage" data-url="{{item.pic}}"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<van-empty wx:if="{{!recipe}}" description="加载中..." />

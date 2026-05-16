@@ -82,11 +82,6 @@ Page({
       url: '/pages/about/index',
     })
   },
-  about() {
-    wx.navigateTo({
-      url: '/pages/about/index',
-    })
-  },
   touming() {
     wx.navigateTo({
       url: '/pages/about/index?key=toumingshicai',
@@ -95,6 +90,11 @@ Page({
   card() {
     wx.navigateTo({
       url: '/pages/card/index',
+    })
+  },
+  recipe() {
+    wx.navigateTo({
+      url: '/pages/recipe/index',
     })
   },
 })
