@@ -2,63 +2,6 @@
 
 微信小程序——餐饮点餐商城，是针对餐饮行业推出的一套完整的餐饮解决方案，实现了用户在线点餐下单、外卖、叫号排队、支付、配送等功能，完美的使餐饮行业更高效便捷！
 
-大家如果在使用过程有什么问题，欢迎通过lssues与我们交流！
-
-如果本项目对您有所帮助或者启发，请给我们 Star 吧，您的鼓励是我们最大对动力～
-
-# 加微信联系我
-
-<img src="https://dcdn.it120.cc/2022/09/19/7b884d58-541a-404b-a805-457540d7f87f.jpeg" width="200px">
-
-
-# 自提/外卖 扫码体验
-
-<img src="https://dcdn.it120.cc/2021/01/19/b388b014-7ae0-4b3a-9d6f-30c8b3082fe6.jpg" width="200px">
-
-
-# 扫码点餐演示
-
-| 座号A1 | 座号A2 | 座号A3 | 座号A4 | 座号A5 |
-| :------: | :------: | :------: | :------: | :------: |
-| <img src="https://dcdn.it120.cc/cuser/27/2021/09/26/cbb91217-47b1-4af1-a0e5-55df0efd3566.png" width="200px"> | <img src="https://dcdn.it120.cc/cuser/27/2023/01/04/cbb30b43-15df-4564-87ef-3416f58ab0c8.png" width="200px"> | <img src="https://dcdn.it120.cc/cuser/27/2023/01/04/150cd47b-e769-49fc-bca6-be8c5fe84f49.png" width="200px"> | <img src="https://dcdn.it120.cc/cuser/27/2023/01/04/b5a44d1f-cea4-437f-802d-a36c728ff459.png" width="200px"> | <img src="https://dcdn.it120.cc/cuser/27/2023/01/04/99c47ba3-50ba-4431-93c6-e10f527a5e28.png" width="200px"> |
-
-
-| 座号A6 | 座号A7 | 座号A8 | 座号A9 | 座号A10 |
-| :------: | :------: | :------: | :------: | :------: |
-| <img src="https://dcdn.it120.cc/cuser/27/2023/01/04/aca7a7fd-72c9-4d89-a903-d82e6b8b8f83.png" width="200px"> | <img src="https://dcdn.it120.cc/cuser/27/2023/01/04/77f16752-656f-4218-99df-c82c5db1921a.png" width="200px"> | <img src="https://dcdn.it120.cc/cuser/27/2023/01/04/e3be04c4-9c0f-41c8-9482-b645699d1df4.png" width="200px"> | <img src="https://dcdn.it120.cc/cuser/27/2023/01/04/352c7e84-56ec-4961-9e7d-cc4e752cf154.png" width="200px"> | <img src="https://dcdn.it120.cc/cuser/27/2023/01/04/78adb196-231d-41b7-be8d-51febc022bac.png" width="200px"> |
-
-# 本项目使用了下面的组件，在此鸣谢
-
-- [vant-UI库](https://youzan.github.io/vant-weapp/)
-
-- [小程序在线接口-SDK](https://github.com/gooking/apifm-wxapi)
-
-- [api工厂](https://admin.s2m.cc)
-
-- [FMUI-轻松活泼-icon](https://www.iconfont.cn/collections/detail?spm=a313x.7781069.0.da5a778a4&cid=17041)
-
-- [小程序HTML解析组件](https://github.com/jin-yufeng/Parser)
-
-- [生成条码和二维码](https://github.com/alsey/wxbarcode)
-
-# 其他优秀开源模板推荐
-- [天使童装](https://github.com/EastWorld/wechat-app-mall)   /  [码云镜像](https://gitee.com/javazj/wechat-app-mall)  /  [GitCode镜像](https://gitcode.com/gooking2/wechat-app-mall)
-- [天使童装（uni-app版本）](https://github.com/gooking/uni-app-mall)  /   [码云镜像](https://gitee.com/javazj/uni-app-mall)  /  [GitCode镜像](https://gitcode.com/gooking2/uni-app-mall)
-- [简约精品商城（uni-app版本）](https://github.com/gooking/uni-app--mini-mall)  /   [码云镜像](https://gitee.com/javazj/uni-app--mini-mall)  /   [GitCode镜像](https://gitcode.com/gooking2/uni-app--mini-mall)
-- [舔果果小铺（升级版）](https://github.com/gooking/TianguoguoXiaopu)
-- [面馆风格小程序](https://gitee.com/javazj/noodle_shop_procedures)
-- [AI名片](https://github.com/gooking/visitingCard)  /   [码云镜像](https://gitee.com/javazj/visitingCard)  /   [GitCode镜像](https://gitcode.com/gooking2/visitingCard)
-- [仿海底捞订座排队 (uni-app)](https://github.com/gooking/dingzuopaidui)  /   [码云镜像](https://gitee.com/javazj/dingzuopaidui)  /   [GitCode镜像](https://gitcode.com/gooking2/dingzuopaidui)
-- [H5版本商城/餐饮](https://github.com/gooking/vueMinishop)  /  [码云镜像](https://gitee.com/javazj/vueMinishop) /  [GitCode镜像](https://gitcode.com/gooking2/vueMinishop)
-- [餐饮点餐](https://github.com/woniudiancang/bee)  / [码云镜像](https://gitee.com/woniudiancang/bee) / [GitCode镜像](https://gitcode.com/gooking2/bee)
-- [企业微展](https://github.com/gooking/qiyeweizan)  / [码云镜像](https://gitee.com/javazj/qiyeweizan) / [GitCode镜像](https://gitcode.com/gooking2/qiyeweizan)
-- [无人棋牌室](https://github.com/gooking/wurenqipai)  / [码云镜像](https://gitee.com/javazj/wurenqipai) / [GitCode镜像](https://gitcode.com/gooking2/wurenqipai)
-- [酒店客房服务小程序](https://github.com/gooking/hotelRoomService)  / [码云镜像](https://gitee.com/javazj/hotelRoomService) / [GitCode镜像](https://gitcode.com/gooking2/hotelRoomService)
-- [面包店风格小程序](https://github.com/gooking/bread)  / [码云镜像](https://gitee.com/javazj/bread) / [GitCode镜像](https://gitcode.com/gooking2/bread)
-- [朋友圈发圈素材小程序](https://github.com/gooking/moments)  / [码云镜像](https://gitee.com/javazj/moments) / [GitCode镜像](https://gitcode.com/gooking2/moments)
-- [小红书企业微展](https://github.com/gooking/xhs-qiyeweizan)  / [码云镜像](https://gitee.com/javazj/xhs-qiyeweizan) / [GitCode镜像](https://gitcode.com/gooking2/xhs-qiyeweizan)
-- [旧物回收、废品回收](https://github.com/gooking/recycle)  / [码云镜像](https://gitee.com/javazj/recycle) / [GitCode镜像](https://gitcode.com/gooking2/recycle)
-- [会员卡（饭卡）储值消费系统](https://github.com/gooking/mealcard)  / [码云镜像](https://gitee.com/javazj/mealcard) / [GitCode镜像](https://gitcode.com/gooking2/mealcard)
 
 # 使用教程
 
