@@ -198,12 +198,14 @@
 }
 
 .features-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 24rpx;
+  justify-content: center;
 }
 
 .feature-item {
+  width: calc(25% - 18rpx);
   display: flex;
   flex-direction: column;
   align-items: center;

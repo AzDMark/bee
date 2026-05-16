@@ -35,7 +35,9 @@
     "pages/card/logs",
     "pages/card/exchange",
     "pages/card/send",
-    "pages/card/receive"
+    "pages/card/receive",
+    "pages/recipe/index",
+    "pages/recipe/detail"
   ],
   "requiredPrivateInfos": [
     "getLocation",

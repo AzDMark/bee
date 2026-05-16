@@ -1,0 +1,161 @@
+page {
+  background: #f5f5f5;
+}
+
+.detail-container {
+  padding-bottom: 40rpx;
+}
+
+/* 封面大图 */
+.cover-img {
+  width: 100%;
+  background: #f0f0f0;
+}
+
+/* 基本信息 */
+.info-section {
+  background: #fff;
+  padding: 32rpx;
+  margin-bottom: 16rpx;
+}
+
+.recipe-title {
+  font-size: 36rpx;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 12rpx;
+}
+
+.recipe-desc {
+  font-size: 28rpx;
+  color: #999;
+  line-height: 1.6;
+  margin-bottom: 16rpx;
+}
+
+.tags-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+}
+
+.taste-tag {
+  font-size: 24rpx;
+  color: #e64340;
+  background: #fff0f0;
+  padding: 6rpx 16rpx;
+  border-radius: 8rpx;
+}
+
+/* 通用区块 */
+.section {
+  background: #fff;
+  padding: 32rpx;
+  margin-bottom: 16rpx;
+}
+
+.section-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 24rpx;
+  padding-left: 12rpx;
+  border-left: 6rpx solid #e64340;
+}
+
+/* 食材原料 */
+.ingredient-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12rpx 0;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.ingredient-item:last-child {
+  border-bottom: none;
+}
+
+.ingredient-name {
+  font-size: 28rpx;
+  color: #333;
+}
+
+.ingredient-amount {
+  font-size: 28rpx;
+  color: #999;
+}
+
+/* 营养成分 */
+.nutrition-grid {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.nutrition-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rpx;
+}
+
+.nutrition-value {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #333;
+}
+
+.nutrition-label {
+  font-size: 24rpx;
+  color: #999;
+}
+
+/* 制作步骤 */
+.step-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32rpx;
+}
+
+.step-item {
+  display: flex;
+  gap: 20rpx;
+}
+
+.step-number {
+  width: 48rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  text-align: center;
+  background: #e64340;
+  color: #fff;
+  font-size: 26rpx;
+  font-weight: 600;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-text {
+  font-size: 28rpx;
+  color: #333;
+  line-height: 1.8;
+}
+
+.step-img {
+  width: 100%;
+  height: 320rpx;
+  border-radius: 12rpx;
+  margin-top: 16rpx;
+  background: #f0f0f0;
+}
